@@ -13,7 +13,7 @@ class Courses extends Component {
             <div className="input-group courses">
               <input type="text" className="form-control" placeholder="Lägg till din kurs..." name="search"/>
               <div className="input-group-btn">
-                <button className="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"> Sök</i></button>
+                <button className="btn btn-default" type="submit"><i className="glyphicon glyphicon-search"> Sök</i></button>
               </div>
             </div>
           </form>
@@ -28,17 +28,17 @@ class Courses extends Component {
               <div className="well">
                 <div className="row">
                   <div className="col-lg-5 col-md-5 col-sm-5">
-                    <img class="demoPic" src={demo} alt="DEMO"/>
+                    <img className="demoPic" src={demo} alt="DEMO"/>
                   </div>
                   <div className="col-lg-7 col-md-7 col-sm-7">
                     <h2>Samhällskunskap 2</h2>
                     <p>Gustav Eriksson</p>
                     <p>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star last"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star checked"></span>
+                      <span className="fa fa-star last"></span>
                       baserat på 5 röster
                     </p>
                     <hr />
@@ -55,17 +55,17 @@ class Courses extends Component {
               <div className="well">
                 <div className="row">
                   <div className="col-lg-5 col-md-5 col-sm-5">
-                    <img class="demoPic" src={demo} alt="DEMO"/>
+                    <img className="demoPic" src={demo} alt="DEMO"/>
                   </div>
                   <div className="col-lg-7 col-md-7 col-sm-7">
                     <h2>Samhällskunskap 2</h2>
                     <p>Gustav Eriksson</p>
                     <p>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star last"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star last"></span>
                       baserat på 5 röster
                     </p>
                     <hr />
@@ -82,17 +82,17 @@ class Courses extends Component {
               <div className="well">
                 <div className="row">
                   <div className="col-lg-5 col-md-5 col-sm-5">
-                    <img class="demoPic" src={demo} alt="DEMO"/>
+                    <img className="demoPic" src={demo} alt="DEMO"/>
                   </div>
                   <div className="col-lg-7 col-md-7 col-sm-7">
                     <h2>Samhällskunskap 2</h2>
                     <p>Gustav Eriksson</p>
                     <p>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star last"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star last"></span>
                       baserat på 5 röster
                     </p>
                     <hr />
@@ -109,17 +109,17 @@ class Courses extends Component {
               <div className="well">
                 <div className="row">
                   <div className="col-lg-5 col-md-5 col-sm-5">
-                    <img class="demoPic" src={demo} alt="DEMO"/>
+                    <img className="demoPic" src={demo} alt="DEMO"/>
                   </div>
                   <div className="col-lg-7 col-md-7 col-sm-7">
                     <h2>Samhällskunskap 2</h2>
                     <p>Gustav Eriksson</p>
                     <p>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star checked"></span>
-                      <span class="fa fa-star last"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star checked"></span>
+                    <span className="fa fa-star last"></span>
                       baserat på 5 röster
                     </p>
                     <hr />
