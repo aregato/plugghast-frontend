@@ -7,6 +7,7 @@ class News extends Component {
       <div>
         <div className="container">
           <h1>Nyheter</h1>
+          <hr/>
         </div>
       </div>
     )

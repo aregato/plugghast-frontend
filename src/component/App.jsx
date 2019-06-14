@@ -42,7 +42,7 @@ class App extends Component {
           <Route path="/news" component={News}/>
           <Route path="/offers" component={Offers}/>
         </section>
-      </div>
+        </div>
       </HashRouter>
     )
   }

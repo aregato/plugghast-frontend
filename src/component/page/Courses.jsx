@@ -6,10 +6,13 @@ import demo from '../../images/demoPic.png';
 
 class Courses extends Component {
   render() {
+
     return(
       <div>
+
         <div className="container">
           <h1>Mina kurser</h1>
+          <hr />
           <form action="">
             <div className="input-group">
               <input type="text" className="form-control" placeholder="Lägg till din kurs..." name="search"/>
@@ -20,12 +23,9 @@ class Courses extends Component {
           </form>
           <br />
           <hr />
-
           <h4>Tillagda kurser</h4>
-
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
-
               <div className="well">
                 <div className="row">
                   <div className="col-lg-5 col-md-5 col-sm-5">
@@ -49,10 +49,8 @@ class Courses extends Component {
                   </div>
                 </div>
               </div>
-
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
-
               <div className="well">
                 <div className="row">
                   <div className="col-lg-5 col-md-5 col-sm-5">
@@ -76,10 +74,8 @@ class Courses extends Component {
                   </div>
                 </div>
               </div>
-
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
-
               <div className="well">
                 <div className="row">
                   <div className="col-lg-5 col-md-5 col-sm-5">
@@ -103,10 +99,8 @@ class Courses extends Component {
                   </div>
                 </div>
               </div>
-
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
-
               <div className="well">
                 <div className="row">
                   <div className="col-lg-5 col-md-5 col-sm-5">
@@ -130,10 +124,10 @@ class Courses extends Component {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
+
       </div>
     )
   }

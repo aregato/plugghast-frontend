@@ -7,6 +7,11 @@ class Userdeals extends Component {
       <div>
         <div className="container">
           <h1>Användaravtal</h1>
+          <hr />
+          <div className="well">
+            <p>Text</p>
+
+          </div>
         </div>
       </div>
     )
