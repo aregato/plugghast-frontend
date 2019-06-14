@@ -26,3 +26,7 @@ section{
     "header main main main"
     "header main main main";
 }
+
+.userdeals > p {
+  font-size: 22px;
+}
