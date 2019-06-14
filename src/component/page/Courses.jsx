@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import '../../css/courses.css';
 import demo from '../../images/demoPic.png';
 
 class Courses extends Component {
@@ -10,7 +11,7 @@ class Courses extends Component {
         <div className="container">
           <h1>Mina kurser</h1>
           <form action="">
-            <div className="input-group courses">
+            <div className="input-group">
               <input type="text" className="form-control" placeholder="Lägg till din kurs..." name="search"/>
               <div className="input-group-btn">
                 <button className="btn btn-default" type="submit"><i className="glyphicon glyphicon-search"> Sök</i></button>

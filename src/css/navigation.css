@@ -1,18 +1,16 @@
 nav{
-  height: 100%;
-  width: 16%;
   position: fixed;
-  /*z-index: 1;*/
-  top: 0;
-  left: 0;
+  height: 100%;
+  width: 300px;
+
   background-color: rgb(247,247,247);
 }
-
 nav > .head {
-  text-align: center;
-  background-color: rgb(243,240,241);
   height:100px;
   margin-top: -5px;
+  text-align: center;
+
+  background-color: rgb(243,240,241);
 }
 .head > img{
   height: 60px;
@@ -20,18 +18,22 @@ nav > .head {
   width: auto;
   text-align: center;
 }
+
 .sidenav{
   margin-top: 30px;
 }
+
 .sidenav a{
   padding: 10px 50px;
 
   text-decoration: none;
   font-size: 22px;
-  color: #818181;
   display: block;
   cursor: pointer;
+
+  color: #818181;
 }
+
 .sidenav a:hover {
   color: black;
   background-color: rgb(243,240,241);
@@ -50,49 +52,4 @@ nav > .head {
 }
 .fa-star.last{
   margin-right: 5px;
-}
-
-
-section{
-  padding: 20px;
-}
-
-/* Courses */
-.input-group.courses{
-  width: 50%
-}
-/* Upload */
-.well.upload{
-  padding-top: 45px;
-  padding-bottom: 45px;
-}
-.flexContainer {
-  margin: 2px 10px;
-  display: flex;
-}
-.left {
-  flex-basis : 30%;
-  width: 1200px !important;
-}
-.right {
-  flex-basis : 30%;
-  margin-left: 20px;
-}
-
-.left2 {
-  flex-basis : 30%;
-}
-.right2 {
-  flex-basis : 30%;
-  margin-left: 20px;
-}
-.area{
-  margin-top: 10px;
-  margin-left: 10px;
-
-  width: 770px !important;
-}
-.lection{
-  margin-top: 10px;
-  margin-left: 10px;
 }

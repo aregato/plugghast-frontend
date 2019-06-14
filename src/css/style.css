@@ -1,0 +1,15 @@
+nav{
+  grid-area: header;
+}
+section{
+  grid-area: main;
+}
+.page {
+  display: grid;
+  grid-template-columns: 340px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header main main main"
+    "header main main main"
+    "header main main main";
+}

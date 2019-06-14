@@ -1,0 +1,35 @@
+/* Upload */
+.well.upload{
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.flexContainer {
+  margin: 2px 10px;
+  display: flex;
+}
+.left {
+  flex-basis : 30%;
+  width: 1200px !important;
+}
+.right {
+  flex-basis : 30%;
+  margin-left: 20px;
+}
+
+.left2 {
+  flex-basis : 30%;
+}
+.right2 {
+  flex-basis : 30%;
+  margin-left: 20px;
+}
+.area{
+  margin-top: 10px;
+  margin-left: 10px;
+
+  width: 770px !important;
+}
+.lection{
+  margin-top: 10px;
+  margin-left: 10px;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import '../../css/upload.css';
 import help from '../../images/helpVid.png';
 
 class Upload extends Component {
@@ -48,7 +49,7 @@ class Upload extends Component {
                         </div>
                       </form>
                       </div>
-                      
+
                   </div>
                   <div className="col-lg-2 col-md-2 col-sm-2">
 

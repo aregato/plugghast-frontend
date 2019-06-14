@@ -8,7 +8,9 @@ import Userdeals from './page/Userdeals';
 import News from './page/News';
 import Offers from './page/Offers';
 
+import '../css/style.css';
 import '../css/navigation.css';
+
 import logo from '../images/orange-logo.png';
 
 class App extends Component {
@@ -17,7 +19,7 @@ class App extends Component {
   render() {
     return(
     <HashRouter>
-      <div>
+      <div className="page">
         <nav>
           <div className="head">
             <img src={logo} alt="Logo" />
