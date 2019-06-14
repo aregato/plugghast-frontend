@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import '../../css/upload.css';
-import help from '../../images/helpVid.png';
+import help from '../../assets/test-images/helpVid.png';
 
 class Upload extends Component {
   render() {

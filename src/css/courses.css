@@ -1,4 +1,10 @@
 /* Courses */
 .input-group{
-  
+
+}
+.checked {
+  color: orange;
+}
+.fa-star.last{
+  margin-right: 5px;
 }

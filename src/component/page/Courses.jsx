@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import '../../css/courses.css';
-import demo from '../../images/demoPic.png';
+import demo from '../../assets/test-images/demoPic.png';
 
 class Courses extends Component {
   render() {

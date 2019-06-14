@@ -1,3 +1,16 @@
+/*
+Bakgrundsfärger:
+Ljusgrå: #f8f8f8
+Orange: #ff751b
+Mörkgrå: #c4c3c3
+*/
+/*
+Textfärger:
+Mörkt #282828
+Mellan: #767676
+Ljus: #aaa9a9
+*/
+
 nav{
   grid-area: header;
 }
@@ -6,7 +19,7 @@ section{
 }
 .page {
   display: grid;
-  grid-template-columns: 340px 50px 50px 50px;
+  grid-template-columns: 400px 50px 50px 50px;
   grid-template-rows: auto;
   grid-template-areas:
     "header main main main"

@@ -1,12 +1,12 @@
 nav{
   position: fixed;
   height: 100%;
-  width: 300px;
+  width: 340px;
 
-  background-color: rgb(247,247,247);
+  background-color:  #f8f8f8;
 }
 nav > .head {
-  height:100px;
+  height:120px;
   margin-top: -5px;
   text-align: center;
 
@@ -14,15 +14,13 @@ nav > .head {
 }
 .head > img{
   height: 60px;
-  margin-top: 20px;
+  margin-top: 35px;
   width: auto;
   text-align: center;
 }
-
 .sidenav{
   margin-top: 30px;
 }
-
 .sidenav a{
   padding: 10px 50px;
 
@@ -33,23 +31,18 @@ nav > .head {
 
   color: #818181;
 }
-
+.sidenav > a > img{
+  width: 30px;
+  margin-right: 20px;
+  margin-top: -5px;
+}
 .sidenav a:hover {
   color: black;
   background-color: rgb(243,240,241);
   transition: 1s;
 }
-.demoPic{
-  border-radius: 10px;
 
-}
 .active{
   color: black !important;
   background-color: rgb(243,240,241);
-}
-.checked {
-  color: orange;
-}
-.fa-star.last{
-  margin-right: 5px;
 }
