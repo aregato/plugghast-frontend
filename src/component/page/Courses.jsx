@@ -24,7 +24,7 @@ class Courses extends Component {
           <br />
           <hr />
           <h4>Tillagda kurser</h4>
-          <div className="row">
+          <div className="row course">
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="well">
                 <div className="row">

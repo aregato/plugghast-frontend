@@ -8,3 +8,8 @@
 .fa-star.last{
   margin-right: 5px;
 }
+
+.course > div > .well:hover {
+  cursor: pointer;
+  background-color: white;
+}
