@@ -1,23 +1,42 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 import '../../css/courses.css';
 import demo from '../../assets/test-images/demoPic.png';
 
 class Courses extends Component {
+
+  searchdropDown(){
+      var element = document.getElementById("searchdropDown");
+      element.classList.toggle("toggled");
+  }
+
   render() {
-
     return(
-      <div>
-
+      <div id="html">
         <div className="container">
           <h1>Mina kurser</h1>
           <hr />
           <form action="">
-            <div className="input-group">
-              <input type="text" className="form-control" placeholder="Lägg till din kurs..." name="search"/>
-              <div className="input-group-btn">
-                <button className="btn btn-default" type="submit"><i className="glyphicon glyphicon-search"> Sök</i></button>
+            <div className="search">
+              <span className="fa fa-search"></span>
+              <input onClick={this.searchdropDown} placeholder="Lägg till din kurs..." />
+              <div id="searchdropDown" className="dropdown-content">
+                <div href="">
+                  <img className="searchImage" src={demo}/> Samhällskunskap 2
+                  <p>Gustav Eriksson</p>
+                  <a className="btn btn-default">Lägg till</a>
+                </div>
+                <div href="">
+                  <img className="searchImage" src={demo}/> Samhällskunskap 2
+                  <p>Gustav Eriksson</p>
+                  <a className="btn btn-default">Lägg till</a>
+                </div>
+                <div href="">
+                  <img className="searchImage" src={demo}/> Samhällskunskap 2
+                  <p>Gustav Eriksson</p>
+                  <a className="btn btn-default">Lägg till</a>
+                </div>
+
               </div>
             </div>
           </form>

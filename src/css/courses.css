@@ -13,3 +13,71 @@
   cursor: pointer;
   background-color: white;
 }
+
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 20px;
+}
+.search input {
+  width: 550px;
+  height: 42px;
+
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+
+}
+.search input { text-indent: 42px;}
+
+.search input:target {
+  background-color: blue;
+}
+.search .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.dropdown-content {
+  display: none;
+
+  position: absolute;
+
+  background-color: #f6f6f6;
+  width: 550px;
+
+  overflow: auto;
+  border: 1px solid #ddd;
+
+  z-index: 1;
+}
+.toggled{
+  display: block;
+}
+
+.dropdown-content div {
+  color: black;
+  padding: 2px 18px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content div:hover{
+  background-color: white;
+}
+#searchdropDown > div > p{
+  font-size: 15px;
+  margin-top: -18px;
+  margin-left: 47px;
+}
+#searchdropDown > div > a{
+  float: right;
+  margin-top: -50px;
+}
+.searchImage{
+  margin-top: 5px;
+  width: 40px;
+}

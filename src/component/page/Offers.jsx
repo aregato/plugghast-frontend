@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 class Offers extends Component {
   render() {
@@ -7,6 +6,7 @@ class Offers extends Component {
       <div>
         <div className="container">
           <h1>Erbjudanden</h1>
+          <hr />
         </div>
       </div>
     )

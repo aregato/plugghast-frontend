@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 import '../../css/upload.css';
 import help from '../../assets/test-images/helpVid.png';

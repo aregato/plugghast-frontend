@@ -11,6 +11,22 @@ Mellan: #767676
 Ljus: #aaa9a9
 */
 
+
+@font-face {
+  font-family: 'Montserrat-Bold';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Montserrat-Bold'),
+    local('Montserrat-Bold'),
+    url(../assets/font/Montserrat-Bold.otf) format('woff2'),
+    url(../assets/font/Montserrat-Regular.otf) format('woff');
+}
+
+h1{
+  font-style: "Montserrat-Bold", sans-serif;
+}
+
 nav{
   grid-area: header;
 }
