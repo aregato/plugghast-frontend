@@ -11,7 +11,7 @@ Mellan: #767676
 Ljus: #aaa9a9
 */
 
-
+/*
 @font-face {
   font-family: 'Montserrat-Bold';
   font-style: normal;
@@ -22,11 +22,30 @@ Ljus: #aaa9a9
     url(../assets/font/Montserrat-Bold.otf) format('woff2'),
     url(../assets/font/Montserrat-Regular.otf) format('woff');
 }
+*/
 
+/* text --> FONT */
+div.page{
+  font-family: 'Montserrat';
+}
 h1{
-  font-style: "Montserrat-Bold", sans-serif;
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  font-size: 42px;
+}
+div.sidenav > a{
+  font-size: 26px;
+}
+.course > div > .well > .row > div > h2{
+  font-size: 26px;
 }
 
+.userdeals > p {
+  font-size: 22px;
+}
+
+
+/* Grid */
 nav{
   grid-area: header;
 }
@@ -41,8 +60,4 @@ section{
     "header main main main"
     "header main main main"
     "header main main main";
-}
-
-.userdeals > p {
-  font-size: 22px;
 }
