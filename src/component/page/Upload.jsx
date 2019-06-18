@@ -18,7 +18,7 @@ class Upload extends Component {
     console.log(number);
 
     div.innerHTML = `
-          <div className="col-lg-11 col-md-11 col-sm-11">
+          <div class="col-lg-11 col-md-11 col-sm-11">
           <h4>Lektion {number}</h4>
             <div class="well">
                 <form action="">
@@ -102,6 +102,7 @@ class Upload extends Component {
               <div className="">
                 <button className="btn btn-default upload">Ladda upp kurs</button>
               </div>
+              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
       </div>
     )
