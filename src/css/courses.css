@@ -1,7 +1,4 @@
 /* Courses */
-.input-group{
-
-}
 .checked {
   color: orange;
 }
@@ -54,6 +51,7 @@
 
   z-index: 1;
 }
+
 .toggled{
   display: block;
 }

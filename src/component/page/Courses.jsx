@@ -36,7 +36,6 @@ class Courses extends Component {
                   <p>Gustav Eriksson</p>
                   <a className="btn btn-default">Lägg till</a>
                 </div>
-
               </div>
             </div>
           </form>

@@ -38,7 +38,7 @@ class App extends Component {
               <br/><br/>
               <NavLink to="/help"><img src={helpIcon} />Hjälp</NavLink>
               <NavLink to="/userdeals"><img src={userdealsIcon} />Användaravtal</NavLink>
-              <NavLink to="/news"><img src={newsIcon} />Nyheter</NavLink>
+
               <NavLink to="/offers"><img src={offersIcon} />Erbjudanden</NavLink>
           </div>
         </nav>
