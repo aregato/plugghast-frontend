@@ -6,3 +6,47 @@ a.btn.btn-warning{
   margin-top: 10px;
   margin-left: 10px;
 }
+.contact{
+  zoom: 110%;
+}
+.contact > div > input {
+  margin: 10px;
+}
+.contact > textarea{
+  margin-left: 20px;
+}
+.btn.sendIn{
+  padding: 10px 18px;
+  margin: 20px;
+  border-radius: 10px;
+
+  background-color: #ff751b;
+  color: white;
+}
+
+.userdeals > p{
+  font-weight: bold;
+  font-size: 20px !important;
+}
+.offers > h4 {
+  color: black;
+}
+.offers > p{
+  font-weight: bold;
+}
+.offers > h6{
+  font-weight: bold;
+  font-size: 18px;
+}
+.offersImg{
+  width: 500px;
+}
+.code{
+  padding: 10px 10px;
+
+
+  border: 3px #767676;
+  border-style: dashed;
+  border-radius: 10px;
+  width: 300px;
+}

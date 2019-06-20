@@ -16,6 +16,8 @@ nav > .head {
   height: 60px;
   margin-top: 35px;
   width: auto;
+  zoom: 80%;
+  margin-top: 55px;
   text-align: center;
 }
 .sidenav{
@@ -41,6 +43,22 @@ nav > .head {
   background-color: rgb(243,240,241);
   transition: 1s;
 }
+.userMenu{
+  position: absolute;
+  padding: 5px 20px;
+  top: 40px;
+  right: 400px;
+
+}
+.userMenu > a{
+  font-weight: bold;
+  font-size: 18px;
+  color: #767676;
+}
+.userMenu > a > span{
+
+}
+
 
 .active{
   color: black !important;

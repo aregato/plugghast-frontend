@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 
 import '../../css/upload.css';
+import laddaupp from '../../assets/icons/laddaupp.png';
+import nylektion from '../../assets/icons/nyLektion.png';
+import upload from '../../assets/icons/upload.png';
+
 import help from '../../assets/test-images/helpVid.png';
 
 class Upload extends Component {
@@ -17,27 +21,39 @@ class Upload extends Component {
     var div = document.createElement('div');
     console.log(number);
 
-    div.innerHTML = `
-          <div class="col-lg-11 col-md-11 col-sm-11">
-          <h4>Lektion {number}</h4>
-            <div class="well">
-                <form action="">
-                  <div class="input-group">
-                    <div class="flexContainer lectionInputs">
-                      <input type="text" class="form-control" placeholder="Kursnamn*" name=""/>
-                      <input type="text" class="form-control" placeholder="Ditt namn*" name=""/>
-                    </div>
-                    <textarea class="form-control lectionText" rows="3" id="" placeholder="Sammanfattning av lektion*"></textarea>
-                  </div>
-                </form>
-                </div>
-            </div>
-            <div class="col-lg-1 col-md-1 col-sm-1">
-            </div>
-          </div>
-    `;
 
+    div.innerHTML = `
+          <h4>Lektion</h4>
+          <a class="removeLecture" href="">Ta bort lektion</a>
+          <div class="row">
+
+              <div class="well">
+                  <form action="">
+                    <div class="input-group">
+                      <div class="flexContainer lectionInputs">
+                        <input type="text" class="form-control" placeholder="Kursnamn*" name=""/>
+                        <input type="text" class="form-control" placeholder="Ditt namn*" name=""/>
+                      </div>
+                      <textarea class="form-control lectionText" rows="3" id="" placeholder="Sammanfattning av lektion*"></textarea>
+                      <div class="imgBox">
+                        <div class="">
+                          <img class="" src="" >
+                          <p>Ladda upp video</p>
+                        </div>
+                        <div class="">
+                          <img class="" src="" />
+                          <p>Ladda upp ljud</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </form>
+              </div>
+            </div>
+          `;
     document.getElementById('posts').appendChild(div);
+
+    //var table = document.getElementByClass('');
 
   }
 
@@ -71,10 +87,9 @@ class Upload extends Component {
             <hr />
             <div>
               <h4>Lektion 1</h4>
-
+              <a className="removeLecture" href="">Ta bort lektion</a>
               <div className="row">
 
-                <div className="col-lg-11 col-md-11 col-sm-11">
                   <div className="well">
                       <form action="">
                         <div className="input-group">
@@ -83,11 +98,19 @@ class Upload extends Component {
                             <input type="text" className="form-control" placeholder="Ditt namn*" name=""/>
                           </div>
                           <textarea className="form-control lectionText" rows="3" id="" placeholder="Sammanfattning av lektion*"></textarea>
+                          <div className="imgBox">
+                            <div className="">
+                              <img className="" src={upload} />
+                              <p>Ladda upp video</p>
+                            </div>
+                            <div className="">
+                              <img className="" src={upload} />
+                              <p>Ladda upp ljud</p>
+                            </div>
+                          </div>
+
                         </div>
                       </form>
-                      </div>
-                  </div>
-                  <div className="col-lg-1 col-md-1 col-sm-1">
                   </div>
                 </div>
 
@@ -96,11 +119,11 @@ class Upload extends Component {
 
               <hr />
               <div className="lectionBtns">
-                <button onClick={this.createLecture} className="btn btn-default">Ny lektion</button>
-                <button className="btn btn-default">Ta bort lektion</button>
+                <button onClick={this.createLecture} className="btn btn-default createLecture"><img src={nylektion} />Ny lektion</button>
+                <button className="btn btn-default removeBtn">Rensa lektioner</button>
               </div>
               <div className="">
-                <button className="btn btn-default upload">Ladda upp kurs</button>
+                <button className="btn btn-default upload"> <span class="glyphicon glyphicon-upload"></span>Ladda upp kurs</button>
               </div>
               <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>

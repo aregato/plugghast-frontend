@@ -42,6 +42,13 @@ class App extends Component {
               <NavLink to="/offers"><img src={offersIcon} />Erbjudanden</NavLink>
           </div>
         </nav>
+
+          <div class=" userMenu">
+
+            <a href="" className="">Noah Björner  <span class="glyphicon glyphicon-chevron-down"></span></a>
+
+          </div>
+
         <section className="content">
           <Route path="/courses" component={Courses}/>
           <Route path="/upload" component={Upload}/>

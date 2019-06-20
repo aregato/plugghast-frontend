@@ -37,6 +37,13 @@
   top: 10px;
   left: 10px;
 }
+.searchBtn{
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: #c4c3c3;
+  color: white;
+  font-size: 18px;
+}
 
 .dropdown-content {
   display: none;
@@ -55,7 +62,6 @@
 .toggled{
   display: block;
 }
-
 .dropdown-content div {
   color: black;
   padding: 2px 18px;
@@ -67,15 +73,23 @@
   background-color: white;
 }
 #searchdropDown > div > p{
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: normal;
   margin-top: -18px;
   margin-left: 47px;
 }
 #searchdropDown > div > a{
   float: right;
   margin-top: -50px;
+  color: white;
+  background-color: #ff751b;
+  font-weight: bold;
+  padding: 8px 12px;
 }
 .searchImage{
   margin-top: 5px;
   width: 40px;
+}
+.searchText{
+  font-weight: bold;
 }

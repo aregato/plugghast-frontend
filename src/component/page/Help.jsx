@@ -31,14 +31,14 @@ class Help extends Component {
           <h4>Kontakta oss</h4>
           <div className="well">
             <form action="">
-              <div className="input-group">
+              <div className="input-group contact">
                 <div className="flexContainer">
-                  <input type="text" className="form-control left" placeholder="Namn*" name=""/>
-                  <input type="text" className="form-control right" placeholder="E-postadress*" name=""/>
+                  <input type="text" className="form-control" placeholder="Namn*" name=""/>
+                  <input type="text" className="form-control" placeholder="E-postadress*" name=""/>
                 </div>
                 <textarea class="form-control area" rows="5" id="comment" placeholder="Meddelande*"></textarea>
               </div>
-              <a className="btn btn-warning">Skicka in</a>
+              <a className="btn btn-default sendIn">Skicka in</a>
             </form>
             </div>
 
