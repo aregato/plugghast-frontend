@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import '../../css/upload.css';
-import laddaupp from '../../assets/icons/laddaupp.png';
+
 import nylektion from '../../assets/icons/nyLektion.png';
 import upload from '../../assets/icons/upload.png';
 
@@ -95,19 +95,19 @@ class Upload extends Component {
                         <div className="input-group">
                           <div className="flexContainer lectionInputs">
                             <input type="text" className="form-control" placeholder="Rubrik*" name=""/>
-                            <input type="text" className="form-control" placeholder="Kategori*" name=""/><span class="glyphicon glyphicon-info-sign one"></span>
+                            <input type="text" className="form-control" placeholder="Kategori*" name=""/><span className="glyphicon glyphicon-info-sign one"></span>
                           </div>
                           <textarea className="form-control lectionText" rows="3" id="" placeholder="Sammanfattning av lektion*"></textarea>
                           <div className="imgBox">
 
                             <div className="">
-                            <span class="glyphicon glyphicon-info-sign two"/>
-                              <img className="" src={upload} />
+                            <span className="glyphicon glyphicon-info-sign two"/>
+                              <img className="" alt="icon" src={upload} />
                               <p>Ladda upp video</p>
                             </div>
                             <div className="">
-                            <span class="glyphicon glyphicon-info-sign two"/>
-                              <img className="" src={upload} />
+                            <span className="glyphicon glyphicon-info-sign two"/>
+                              <img className=""alt="icon" src={upload} />
                               <p>Ladda upp ljud</p>
                             </div>
                           </div>
@@ -122,11 +122,11 @@ class Upload extends Component {
 
               <hr />
               <div className="lectionBtns">
-                <button onClick={this.createLecture} className="btn btn-default createLecture"><img src={nylektion} />Ny lektion</button>
+                <button onClick={this.createLecture} className="btn btn-default createLecture"><img src={nylektion} alt="icon"/>Ny lektion</button>
                 <button className="btn btn-default removeBtn">Rensa lektioner</button>
               </div>
               <div className="">
-                <button className="btn btn-default upload"> <span class="glyphicon glyphicon-upload"></span>Ladda upp kurs</button>
+                <button className="btn btn-default upload"> <span className="glyphicon glyphicon-upload"></span>Ladda upp kurs</button>
               </div>
               <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>

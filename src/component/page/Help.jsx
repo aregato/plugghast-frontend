@@ -36,7 +36,7 @@ class Help extends Component {
                   <input type="text" className="form-control" placeholder="Namn*" name=""/>
                   <input type="text" className="form-control" placeholder="E-postadress*" name=""/>
                 </div>
-                <textarea class="form-control area" rows="5" id="comment" placeholder="Meddelande*"></textarea>
+                <textarea className="form-control area" rows="5" id="comment" placeholder="Meddelande*"></textarea>
               </div>
               <a className="btn btn-default sendIn">Skicka in</a>
             </form>

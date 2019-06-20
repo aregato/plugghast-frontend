@@ -24,20 +24,20 @@ class Courses extends Component {
             <div className="search">
               <span className="fa fa-search"></span>
               <input onClick={this.searchdropDown} placeholder="Lägg till din kurs..." />
-              <button  onClick={this.searchdropDownBtn} class="btn btn-default searchBtn">Sök</button>
+              <button  onClick={this.searchdropDownBtn} className="btn btn-default searchBtn">Sök</button>
               <div id="searchdropDown" className="dropdown-content">
                 <div className="searchText" href="">
-                  <img className="searchImage" src={demo}/> Samhällskunskap 2
+                  <img className="searchImage" alt="demo" src={demo}/> Samhällskunskap 2
+                  <p>Gustav Eriksson</p>
+                  <a  className="btn btn-default">Lägg till</a>
+                </div>
+                <div className="searchText" href="">
+                  <img className="searchImage"  alt="demo" src={demo}/> Samhällskunskap 2
                   <p>Gustav Eriksson</p>
                   <a className="btn btn-default">Lägg till</a>
                 </div>
                 <div className="searchText" href="">
-                  <img className="searchImage" src={demo}/> Samhällskunskap 2
-                  <p>Gustav Eriksson</p>
-                  <a className="btn btn-default">Lägg till</a>
-                </div>
-                <div className="searchText" href="">
-                  <img className="searchImage" src={demo}/> Samhällskunskap 2
+                  <img className="searchImage"  alt="demo" src={demo}/> Samhällskunskap 2
                   <p>Gustav Eriksson</p>
                   <a className="btn btn-default">Lägg till</a>
                 </div>
