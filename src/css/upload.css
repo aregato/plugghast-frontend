@@ -85,7 +85,7 @@ label{
   padding: 14px 22px;
 }
 .lectionBtns > .createLecture:hover{
-  background-color: #f8f8f8;
+  background-color: #;
 }
 .lectionBtns > .createLecture > img{
   width: 20px;
@@ -118,4 +118,19 @@ img.uploadImg{
 .btn-default.upload > img{
   width: 28px;
   margin-right: 10px;
+}
+.glyphicon-info-sign.one{
+  margin-left: -30px;
+  margin-top: 8px;
+  z-index: 2;
+  float: right;
+  color: #767676;
+}
+.glyphicon-info-sign.two{
+  margin-right: -20px;
+  margin-top: -10px;
+  z-index: 2;
+  float: right;
+
+  color: #767676;
 }

@@ -18,7 +18,10 @@ class Offers extends Component {
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
               <br />
               <h6>Din kampanjkod</h6>
+              <div className="campain">
               <p className="code">0iausqitNxb8VmGVFwH4PipHerp2</p>
+              <button className="btn btn-default share">Dela</button>
+              </div>
             </div>
           </div>
           </div>

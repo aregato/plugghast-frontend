@@ -94,16 +94,19 @@ class Upload extends Component {
                       <form action="">
                         <div className="input-group">
                           <div className="flexContainer lectionInputs">
-                            <input type="text" className="form-control" placeholder="Kursnamn*" name=""/>
-                            <input type="text" className="form-control" placeholder="Ditt namn*" name=""/>
+                            <input type="text" className="form-control" placeholder="Rubrik*" name=""/>
+                            <input type="text" className="form-control" placeholder="Kategori*" name=""/><span class="glyphicon glyphicon-info-sign one"></span>
                           </div>
                           <textarea className="form-control lectionText" rows="3" id="" placeholder="Sammanfattning av lektion*"></textarea>
                           <div className="imgBox">
+
                             <div className="">
+                            <span class="glyphicon glyphicon-info-sign two"/>
                               <img className="" src={upload} />
                               <p>Ladda upp video</p>
                             </div>
                             <div className="">
+                            <span class="glyphicon glyphicon-info-sign two"/>
                               <img className="" src={upload} />
                               <p>Ladda upp ljud</p>
                             </div>

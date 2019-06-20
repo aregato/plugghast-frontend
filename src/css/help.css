@@ -41,12 +41,20 @@ a.btn.btn-warning{
 .offersImg{
   width: 500px;
 }
+
 .code{
   padding: 10px 10px;
-
+  display: inline-block;
 
   border: 3px #767676;
   border-style: dashed;
   border-radius: 10px;
   width: 300px;
+}
+.share{
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 10px 18px;
+  background-color: #ff751b;
+  color: white;
 }
