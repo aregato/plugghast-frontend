@@ -23,16 +23,24 @@ Ljus: #aaa9a9
     url(../assets/font/Montserrat-Regular.otf) format('woff');
 }
 */
-
 /* text --> FONT */
 div.page{
   font-family: 'Montserrat';
+  zoom:90%;
 }
 h1{
   font-family: 'Montserrat';
   font-weight: bolder;
   font-size: 42px;
 }
+h2{
+  font-weight: bold;
+}
+h4{
+  color: #767676;
+  font-weight: bold;
+}
+
 div.sidenav > a{
   font-size: 26px;
 }
@@ -43,7 +51,9 @@ div.sidenav > a{
 .userdeals > p {
   font-size: 22px;
 }
-
+button{
+  font-weight: bold !important;
+}
 
 /* Grid */
 nav{
@@ -51,6 +61,8 @@ nav{
 }
 section{
   grid-area: main;
+  margin-left: 10px;
+  margin-top: 30px;
 }
 .page {
   display: grid;
