@@ -47,13 +47,17 @@ nav > .head {
   position: absolute;
   padding: 5px 20px;
   top: 40px;
-  right: 400px;
+  right: 60px;
 
 }
 .userMenu > a{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   color: #767676;
+  margin-left: 20px;
+}
+.userMenu > a:hover{
+  cursor: pointer;
 }
 .userMenu > a > span{
 

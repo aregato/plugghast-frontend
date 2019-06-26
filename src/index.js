@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router';
+import { firebaseApp } from './firebase';
 
 import App from './component/App';
+
+import SignIn from './component/SignIn';
+import SignUp from './component/SignUp';
 
 import Courses from './component/page/Courses';
 import Help from './component/page/Help';
@@ -11,8 +15,23 @@ import Offers from './component/page/Offers';
 import Upload from './component/page/Upload';
 import Userdeals from './component/page/Userdeals';
 
+firebaseApp.auth().onAuthStateChanged(user => {
+  if (user) {
+    console.log('Inloggad');
+    console.log(user);
+
+    browserHistory.push('/app');
+  }else{
+    console.log('Ingen inloggad');
+
+    browserHistory.replace('/signin');
+  }
+})
+
 ReactDOM.render(
     <Router path="/" history={browserHistory}>
+      <Route path="/signin" component={SignIn} />
+      <Route path="/signup" component={SignUp} />
       <Route path="/app" component={App} />
       <Route path="/courses" component={Courses} />
       <Route path="/help" component={Help} />

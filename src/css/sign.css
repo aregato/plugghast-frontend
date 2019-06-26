@@ -1,0 +1,61 @@
+.sign-in-body{
+  background-color: #f8f8f8;
+  height:100vh;
+  min-height:100vh;
+}
+.log-nav{
+  width: 90%;
+  margin-top: 40px;
+
+  height: 440px;
+
+  background-color: white;
+  border-radius: 20px;
+}
+.form-nav > h3{
+  display: inline;
+  font-weight: bolder;
+}
+.form-nav > h3 > a{
+  color: #767676;
+}
+.form-nav > h3.nav-active > a{
+    color: black !important;
+}
+.form-nav > h3 > a:hover{
+  cursor: pointer;
+}
+.nav-reg{
+  margin-left: 10px;
+}
+.nav-log{
+  margin-left: 60px;
+}
+.nav-active{
+  color: black !important;
+}
+.log-inputs{
+  text-align: center;
+
+}
+.log-inputs > input.form-control{
+
+  width: 80%;
+  font-size: 20px;
+  height: 40px;
+}
+.forget-psw{
+  float: right;
+
+  font-size: 16px;
+  margin-right: 45px;
+  color: #767676;
+}
+.log-nav > .button-center > button{
+  font-size: 20px;
+  margin-top: 40px;
+
+  width: 200px;
+  height: 40px;
+
+}

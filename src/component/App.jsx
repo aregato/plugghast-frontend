@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Route, NavLink, HashRouter} from "react-router-dom";
+import { firebaseApp } from '../firebase';
 //Pages
 import Courses from './page/Courses';
 import Upload from './page/Upload';
@@ -23,6 +24,9 @@ import offersIcon from '../assets/icons/offers.png'
 
 class App extends Component {
 
+  signOut(){
+    firebaseApp.auth().signOut();
+  }
 
   render() {
     return(
@@ -44,9 +48,8 @@ class App extends Component {
         </nav>
 
           <div className=" userMenu">
-
-            <a href="" className="">Noah Björner  <span className="glyphicon glyphicon-chevron-down"></span></a>
-
+            <a className="" onClick={() => this.signOut()}>Logga ut</a>
+            <a className="">Noah Björner  <span className="glyphicon glyphicon-chevron-down"></span></a>
           </div>
 
         <section className="content">
