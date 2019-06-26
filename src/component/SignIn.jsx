@@ -5,7 +5,26 @@ import { firebaseApp } from '../firebase';
 import '../css/sign.css';
 
 class SignIn extends Component {
-
+    constructor(props){
+     super(props);
+     this.state = {
+       email: '',
+       password: '',
+       error: {
+         message: ''
+       },
+       appearHome: true,
+     }
+   }
+   signIn(){
+      //console.log('this.state', this.state);
+      const { email, password } = this.state;
+      firebaseApp.auth().signInWithEmailAndPassword(email, password)
+        .catch(error => {
+          console.log('error', error)
+          this.setState({error})
+        })
+    }
 
   render(){
     return(
@@ -25,13 +44,15 @@ class SignIn extends Component {
                     className="form-control"
                     type="text"
                     placeholder="E-postadress"
+                    onChange={event => this.setState({email: event.target.value})}
                   />
                   <br/>
 
                   <input
                     className="form-control"
-                    type="text"
+                    type="password"
                     placeholder="Lösenord"
+                    onChange={event => this.setState({password: event.target.value})}
                   />
                   </div>
                   <a className="forget-psw">Glömt lösenord?</a>
@@ -40,6 +61,7 @@ class SignIn extends Component {
                     <button
                       className="btn"
                       type="button"
+                      onClick={() => this.signIn()}
                     >
                     Logga in
                     </button>
