@@ -1,61 +1,71 @@
-.sign-in-body{
+.body{
+  height: 100vh;
+
   background-color: #f8f8f8;
-  height:100vh;
-  min-height:100vh;
 }
-.log-nav{
+.well.sign{
   width: 90%;
-  margin-top: 40px;
+  height: 400px;
 
-  height: 440px;
+  display: flex;
+  flex-direction: column;
 
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 25px;
   background-color: white;
-  border-radius: 20px;
 }
-.form-nav > h3{
-  display: inline;
+.navigation-sign > a{
+  font-size: 26px;
   font-weight: bolder;
+  color: #aaa9a9;
 }
-.form-nav > h3 > a{
-  color: #767676;
-}
-.form-nav > h3.nav-active > a{
-    color: black !important;
-}
-.form-nav > h3 > a:hover{
-  cursor: pointer;
-}
-.nav-reg{
-  margin-left: 10px;
-}
-.nav-log{
-  margin-left: 60px;
-}
-.nav-active{
-  color: black !important;
-}
-.log-inputs{
+.sign-up{}
+.sign-in{margin-left: 30px;}
+.navigation-sign > .dark{color: black;}
+
+.form-sign{
   text-align: center;
-
 }
-.log-inputs > input.form-control{
+.form-sign > input {
+    width: 85%;
+    height: 40px;
+    margin: 10px;
 
-  width: 80%;
-  font-size: 20px;
-  height: 40px;
+    font-size: 22px;
+    background-color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    border-radius: 15px;
 }
-.forget-psw{
-  float: right;
+.form-sign > input::placeholder{
+    padding-left: 20px;
+}
+.button-sign{
+  margin-top: auto;
+  text-align: center;
+}
+.button-sign > button{
+    padding: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    font-size: 22px;
+    border-radius: 20px;
+    border: 1px solid #ff751b;
+    background-color: #ff751b;
+    color: white;
+}
+.forget-pws{
+  margin-right: 32px;
+  text-align: right;
 
   font-size: 16px;
-  margin-right: 45px;
+  font-weight: bold;
   color: #767676;
 }
-.log-nav > .button-center > button{
-  font-size: 20px;
-  margin-top: 40px;
-
-  width: 200px;
-  height: 40px;
+.forget-pws:hover{
+  cursor: pointer;
 
 }
