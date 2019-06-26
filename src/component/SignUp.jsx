@@ -51,7 +51,6 @@ class SignOut extends Component {
                   onChange={event => this.setState({email: event.target.value})}
                 />
                 <br/>
-
                 <input
                   type="password"
                   placeholder="Lösenord"
