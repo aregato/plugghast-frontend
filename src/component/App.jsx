@@ -15,7 +15,7 @@ import '../css/navigation.css';
 import logo from '../assets/logo/mindreLogo.png';
 //Nav Icons
 import courseIcon from '../assets/icons/minakurser.png';
-import uploadIcon from '../assets/icons/upload.png';
+import uploadIcon from '../assets/icons/laddaupp.png';
 import helpIcon from '../assets/icons/help.png';
 import userdealsIcon from '../assets/icons/userdeals.png';
 

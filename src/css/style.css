@@ -30,8 +30,9 @@ div.page{
 }
 h1{
   font-family: 'Montserrat';
-  font-weight: bolder;
+  font-weight: bolder !important;
   font-size: 42px;
+
 }
 h2{
   font-weight: bold;
@@ -54,6 +55,18 @@ div.sidenav > a{
 button{
   font-weight: bold !important;
 }
+textarea:focus
+{
+   outline: none !important;
+   border:1px solid red !important;
+   box-shadow: 0 0 7px #ff751b !important;
+}
+input:focus{
+   outline: none !important;
+   border:1px solid red !important;
+   box-shadow: 0 0 7px #ff751b !important;
+}
+
 
 /* Grid */
 nav{

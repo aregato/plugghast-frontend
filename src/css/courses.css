@@ -20,21 +20,24 @@
 }
 .search input {
   width: 550px;
-  height: 42px;
+  height: 46px !important;
 
   background: #fcfcfc;
   border: 1px solid #aaa;
   border-radius: 5px;
-
+    font-size: 22px;
 }
-.search input { text-indent: 42px;}
+.search input {
+  background-color: #f8f8f8;
+  border: none;
+  text-indent: 42px;}
 
 .search input:target {
   background-color: blue;
 }
 .search .fa-search {
   position: absolute;
-  top: 10px;
+  top: 13px;
   left: 10px;
 }
 .searchBtn{
@@ -43,6 +46,7 @@
   background-color: #c4c3c3;
   color: white;
   font-size: 18px;
+  padding: 10px 20px;
 }
 
 .dropdown-content {
@@ -69,6 +73,16 @@
   display: block;
 }
 
+.course > div > .well {
+  border: none;
+}
+.name{
+  font-size: 16px;
+  font-weight: bolder;
+  color:  #767676;
+
+  margin-left: 4px;
+}
 .dropdown-content div:hover{
   background-color: white;
 }

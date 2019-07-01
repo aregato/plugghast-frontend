@@ -18,10 +18,13 @@ a.btn.btn-warning{
 .btn.sendIn{
   padding: 10px 18px;
   margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
   border-radius: 10px;
-
+  border: 1px solid #ff751b;
   background-color: #ff751b;
   color: white;
+  width: 160px;
 }
 
 .userdeals > p{

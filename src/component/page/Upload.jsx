@@ -31,8 +31,8 @@ class Upload extends Component {
                   <form action="">
                     <div class="input-group">
                       <div class="flexContainer lectionInputs">
-                        <input type="text" class="form-control" placeholder="Kursnamn*" name=""/>
-                        <input type="text" class="form-control" placeholder="Ditt namn*" name=""/>
+                        <input type="text" class="form-control lec-up" placeholder="Kursnamn*" name=""/>
+                        <input type="text" class="form-control lec-up" placeholder="Kategori*" name=""/>
                       </div>
                       <textarea class="form-control lectionText" rows="3" id="" placeholder="Sammanfattning av lektion*"></textarea>
                       <div class="imgBox">
@@ -72,7 +72,7 @@ class Upload extends Component {
                     <div className="input-group">
                       <div className="flexContainer">
                         <input type="text" className="form-control courseName"  placeholder="Kursnamn*" name=""/>
-                        <input type="checkbox" className="courseBox" name=""/>
+                        <input type="checkbox" checked="checked" className="courseBox" name=""/>
                         <label className="">Visa annonser</label>
                       </div>
                       <textarea className="form-control area" rows="3" id="comment" placeholder="Sammanfattning av kurs*"></textarea>
@@ -94,21 +94,21 @@ class Upload extends Component {
                       <form action="">
                         <div className="input-group">
                           <div className="flexContainer lectionInputs">
-                            <input type="text" className="form-control" placeholder="Rubrik*" name=""/>
-                            <input type="text" className="form-control" placeholder="Kategori*" name=""/><span className="glyphicon glyphicon-info-sign one"></span>
+                            <input type="text" className="form-control lec-up" placeholder="Rubrik*" name=""/>
+                            <input type="text" className="form-control lec-up" placeholder="Kategori*" name=""/><span className="glyphicon glyphicon-info-sign one"></span>
                           </div>
                           <textarea className="form-control lectionText" rows="3" id="" placeholder="Sammanfattning av lektion*"></textarea>
                           <div className="imgBox">
 
                             <div className="">
                             <span className="glyphicon glyphicon-info-sign two"/>
-                              <img className="" alt="icon" src={upload} />
-                              <p>Ladda upp video</p>
+                              <img className="one" alt="icon" src={upload} />
+                              <p className="p">Ladda upp video</p>
                             </div>
                             <div className="">
                             <span className="glyphicon glyphicon-info-sign two"/>
                               <img className=""alt="icon" src={upload} />
-                              <p>Ladda upp ljud</p>
+                              <p className="p">Ladda upp ljud</p>
                             </div>
                           </div>
 

@@ -32,11 +32,13 @@ nav > .head {
   cursor: pointer;
 
   color: #818181;
+
 }
 .sidenav > a > img{
   width: 30px;
   margin-right: 20px;
   margin-top: -5px;
+
 }
 .sidenav a:hover {
   color: black;
@@ -62,9 +64,9 @@ nav > .head {
 .userMenu > a > span{
 
 }
-
-
 .active{
   color: black !important;
+  font-weight: bold;
   background-color: rgb(243,240,241);
+  border-right: 5px solid #ff751b;
 }

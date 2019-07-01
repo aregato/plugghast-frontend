@@ -19,7 +19,7 @@ class Courses extends Component {
       <div id="html">
         <div className="container">
           <h1>Mina kurser</h1>
-          <hr />
+          <br />
           <form action="">
             <div className="search">
               <span className="fa fa-search"></span>
@@ -45,7 +45,7 @@ class Courses extends Component {
             </div>
           </form>
           <br />
-          <hr />
+
           <h4>Tillagda kurser</h4>
           <div className="row course">
             <div className="col-lg-6 col-md-6 col-sm-12">
@@ -56,7 +56,7 @@ class Courses extends Component {
                   </div>
                   <div className="col-lg-7 col-md-7 col-sm-7">
                     <h2>Samhällskunskap 2</h2>
-                    <p>Gustav Eriksson</p>
+                    <p className="name">Gustav Eriksson</p>
                     <p>
                       <span className="fa fa-star checked"></span>
                       <span className="fa fa-star checked"></span>
@@ -81,7 +81,7 @@ class Courses extends Component {
                   </div>
                   <div className="col-lg-7 col-md-7 col-sm-7">
                     <h2>Samhällskunskap 2</h2>
-                    <p>Gustav Eriksson</p>
+                      <p className="name">Gustav Eriksson</p>
                     <p>
                     <span className="fa fa-star checked"></span>
                     <span className="fa fa-star checked"></span>
@@ -106,7 +106,7 @@ class Courses extends Component {
                   </div>
                   <div className="col-lg-7 col-md-7 col-sm-7">
                     <h2>Samhällskunskap 2</h2>
-                    <p>Gustav Eriksson</p>
+                      <p className="name">Gustav Eriksson</p>
                     <p>
                     <span className="fa fa-star checked"></span>
                     <span className="fa fa-star checked"></span>
@@ -131,7 +131,7 @@ class Courses extends Component {
                   </div>
                   <div className="col-lg-7 col-md-7 col-sm-7">
                     <h2>Samhällskunskap 2</h2>
-                    <p>Gustav Eriksson</p>
+                      <p className="name">Gustav Eriksson</p>
                     <p>
                     <span className="fa fa-star checked"></span>
                     <span className="fa fa-star checked"></span>

@@ -33,8 +33,8 @@ class Help extends Component {
             <form action="">
               <div className="input-group contact">
                 <div className="flexContainer">
-                  <input type="text" className="form-control" placeholder="Namn*" name=""/>
-                  <input type="text" className="form-control" placeholder="E-postadress*" name=""/>
+                  <input type="text" className="form-control lec-up" placeholder="Namn*" name=""/>
+                  <input type="text" className="form-control lec-up" placeholder="E-postadress*" name=""/>
                 </div>
                 <textarea className="form-control area" rows="5" id="comment" placeholder="Meddelande*"></textarea>
               </div>

@@ -10,24 +10,38 @@
 
 .courseName{
   width: 550px !important;
+  height: auto;
   margin-right: 10px;
-  margin-top: -8px;
+  margin-top: -20px;
+
+  text-indent: 10px;
+  font-size: 22px;
+
+  border: 1px solid #f8f8f8;
+  border-radius: 10px;
 }
 .courseBox{
   margin-left: 30px !important;
-
-  transform: scale(2.4);
+  margin-top: -0px !important;
+  transform: scale(3);
 
 }
 label{
   margin-left: 20px;
-  font-size: 16px;
+  font-size: 18px;
+  margin-top: -7px !important;
 }
 .area{
   margin-top: 10px;
   margin-left: 10px;
 
   width: 700px !important;
+
+  text-indent: 5px;
+  font-size: 22px;
+
+  border: 1px solid #f8f8f8;
+  border-radius: 10px;
 }
 
 .lectionInputs > input{
@@ -38,12 +52,31 @@ label{
   margin-top: 10px;
   margin-left: 10px;
   width: 700px !important;
+  font-size: 22px;
+
+  border: 1px solid #f8f8f8;
+  border-radius: 10px;
+}
+
+.lec-up{
+
+  height: 46px;
+  text-indent: 10px;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #f8f8f8;
+  border-radius: 10px;
 }
 
 .lectionBtns > button{
+  padding-left: 35px;
+  padding-right: 35px;
 
-  margin: 10px;
+  font-weight: bold;
+  font-size: 18px;
   border-radius: 10px;
+  margin-right: 20px;
 }
 .lectionBtns > .createLecture{
   background-color: #c4c3c3;
@@ -71,6 +104,13 @@ label{
 }
 .imgBox > div > img{
   width: 100px;
+}
+.imgBox > div > img.one{
+  margin-left: 8px;
+}
+.p{
+  font-weight: bold;
+  color: #767676;
 }
 .removeLecture{
   float: right;
@@ -101,11 +141,15 @@ img.uploadImg{
 }
 
 .btn-default.upload {
-  padding: 10px 18px;
-  margin-right: 200px;
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 56px;
+  font-size: 18px;
+  border-radius: 10px;
+
+  margin-right: 20px;
 
   float: right;
-  border-radius: 10px;
 
   background-color: #ff751b;
   color: white;
