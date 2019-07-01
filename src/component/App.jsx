@@ -28,6 +28,12 @@ class App extends Component {
     firebaseApp.auth().signOut();
   }
 
+  userDropdown (){
+    console.log("Drop");
+    var element = document.getElementById("user-dropdown");
+    element.classList.toggle("toggled");
+  }
+
   render() {
     return(
     <HashRouter>
@@ -47,9 +53,15 @@ class App extends Component {
           </div>
         </nav>
 
-          <div className=" userMenu">
-            <a className="" onClick={() => this.signOut()}>Logga ut</a>
-            <a className="">Noah Björner  <span className="glyphicon glyphicon-chevron-down"></span></a>
+          <div className="userMenu">
+            <a onClick ={this.userDropdown} className="">Noah Björner  <span className="glyphicon glyphicon-chevron-down"></span></a>
+            <div  id="user-dropdown" className="dropdown-cont ">
+              <a className="">Profil</a>
+              <a className="">Inställningar</a>
+              <hr/>
+
+              <a className="" onClick={() => this.signOut()}>Logga ut</a>
+            </div>
           </div>
 
         <section className="content">

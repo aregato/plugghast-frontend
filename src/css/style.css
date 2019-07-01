@@ -24,9 +24,10 @@ Ljus: #aaa9a9
 }
 */
 /* text --> FONT */
+
 div.page{
   font-family: 'Montserrat';
-  zoom:90%;
+  zoom:80%;
 }
 h1{
   font-family: 'Montserrat';

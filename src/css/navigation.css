@@ -47,6 +47,7 @@ nav > .head {
 }
 .userMenu{
   position: absolute;
+  display: inline-block;
   padding: 5px 20px;
   top: 40px;
   right: 60px;
@@ -60,9 +61,43 @@ nav > .head {
 }
 .userMenu > a:hover{
   cursor: pointer;
+  text-decoration: none;
+  font-weight: bolder;
+
 }
 .userMenu > a > span{
 
+}
+.dropdown-cont{
+  margin-left: 10px;
+  margin-top: 10px;
+  position: absolute;
+  display: none;
+  background-color: #f9f9f9;
+
+  box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown-cont:hover{
+  display: block;
+}
+.toggled{display: block}
+
+.dropdown-cont > a {
+  display: block;
+  color: #767676;
+
+  font-size: 20px;
+  padding: 10px;
+  padding-right: 20px;
+  cursor: pointer;
+
+}
+.dropdown-cont > a:hover{
+
+  text-decoration: none;
+  font-weight: bolder;
 }
 .active{
   color: black !important;
