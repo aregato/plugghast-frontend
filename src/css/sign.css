@@ -57,9 +57,9 @@ input:focus{
     padding: 8px;
     padding-left: 35px;
     padding-right: 35px;
-    
+
     font-size: 22px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid #ff751b;
     background-color: #ff751b;
     color: white;
