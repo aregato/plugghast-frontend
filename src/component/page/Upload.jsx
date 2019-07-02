@@ -90,7 +90,7 @@ class Upload extends Component {
               <a className="removeLecture" href="">Ta bort lektion</a>
               <div className="row">
 
-                  <div className="well">
+                  <div className="fakewell well">
                       <form action="">
                         <div className="input-group">
                           <div className="flexContainer lectionInputs">
@@ -100,12 +100,12 @@ class Upload extends Component {
                           <textarea className="form-control lectionText" rows="3" id="" placeholder="Sammanfattning av lektion*"></textarea>
                           <div className="imgBox">
 
-                            <div className="">
+                            <div className="vid">
                             <span className="glyphicon glyphicon-info-sign two"/>
                               <img className="one" alt="icon" src={upload} />
                               <p className="p">Ladda upp video</p>
                             </div>
-                            <div className="">
+                            <div className="sound">
                             <span className="glyphicon glyphicon-info-sign two"/>
                               <img className=""alt="icon" src={upload} />
                               <p className="p">Ladda upp ljud</p>
