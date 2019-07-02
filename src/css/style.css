@@ -28,6 +28,7 @@ Ljus: #aaa9a9
 div.page{
   font-family: 'Montserrat';
   zoom:80%;
+  width: 100%;
 }
 h1{
   font-family: 'Montserrat';
@@ -67,7 +68,9 @@ input:focus{
    border:1px solid red !important;
    box-shadow: 0 0 7px #ff751b !important;
 }
-
+.well{
+  background-color: #f8f8f8 !important;
+}
 
 /* Grid */
 nav{

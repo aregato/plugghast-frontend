@@ -164,7 +164,7 @@ img.uploadImg{
   padding-left: 35px;
   padding-right: 35px;
   height: 56px;
-  font-size: 18px;
+  font-size: 22px;
   border-radius: 10px;
 
   margin-right: 20px;
@@ -176,7 +176,8 @@ img.uploadImg{
 }
 .btn-default.upload > span{
   margin-right: 10px;
-  font-size: 18px;
+  font-size: 22px;
+  margin-top: 2px;
 
 }
 .btn-default.upload > img{

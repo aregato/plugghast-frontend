@@ -26,7 +26,6 @@ class Upload extends Component {
           <h4>Lektion</h4>
           <a class="removeLecture" href="">Ta bort lektion</a>
           <div class="row">
-
               <div class="well">
                   <form action="">
                     <div class="input-group">
@@ -63,7 +62,7 @@ class Upload extends Component {
       <div>
         <div className="container">
           <h1>Ladda upp kurs</h1>
-          <hr />
+          <br />
           <h4>Kursinformation</h4>
           <div className="row">
             <div className="col-lg-9 col-md-9 col-sm-9">
@@ -111,7 +110,6 @@ class Upload extends Component {
                               <p className="p">Ladda upp ljud</p>
                             </div>
                           </div>
-
                         </div>
                       </form>
                   </div>

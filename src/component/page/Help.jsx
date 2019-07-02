@@ -9,7 +9,7 @@ class Help extends Component {
       <div>
         <div className="container">
           <h1>Hjälp</h1>
-          <hr />
+          <br />
           <div>
             <h4>Videogenomgångar</h4>
             <div className="row">
@@ -32,11 +32,7 @@ class Help extends Component {
           <div className="well">
             <form action="">
               <div className="input-group contact">
-                <div className="flexContainer">
-                  <input type="text" className="form-control lec-up" placeholder="Namn*" name=""/>
-                  <input type="text" className="form-control lec-up" placeholder="E-postadress*" name=""/>
-                </div>
-                <textarea className="form-control area" rows="5" id="comment" placeholder="Meddelande*"></textarea>
+                <textarea className="form-control area-contact" rows="5" id="comment" placeholder="Meddelande*"></textarea>
               </div>
               <a className="btn btn-default sendIn">Skicka in</a>
             </form>

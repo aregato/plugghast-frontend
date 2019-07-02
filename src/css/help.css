@@ -16,9 +16,9 @@ a.btn.btn-warning{
   margin-left: 20px;
 }
 .btn.sendIn{
-  padding: 10px 18px;
+  padding: 10px 10px;
   margin: 20px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   border-radius: 10px;
   border: 1px solid #ff751b;
@@ -29,17 +29,21 @@ a.btn.btn-warning{
 
 .userdeals > p{
   font-weight: bold;
-  font-size: 20px !important;
+  font-size: 18px !important;
+  padding: 10px;
+  padding-right: 25px;
 }
 .offers > h4 {
   color: black;
+  font-size: 26px;
 }
 .offers > p{
   font-weight: bold;
+  font-size: 18px;
 }
 .offers > h6{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
 }
 .offersImg{
   width: 500px;
@@ -47,17 +51,38 @@ a.btn.btn-warning{
 
 .code{
   padding: 10px 10px;
-  display: inline-block;
 
+  display: inline-block;
+  font-size: 18px;
+  color: #767676;
   border: 3px #767676;
   border-style: dashed;
   border-radius: 10px;
-  width: 300px;
+  width: 342px;
 }
 .share{
   margin-left: 20px;
+
+
+  padding: 8px;
+  padding-left: 35px;
+  padding-right: 35px;
+
+  font-size: 22px;
   border-radius: 10px;
-  padding: 10px 18px;
+  border: 1px solid #ff751b;
   background-color: #ff751b;
   color: white;
+}
+.area-contact{
+  margin-top: 10px;
+  margin-left: 10px;
+
+  width: 800px !important;
+  height: 300px !important;
+  text-indent: 5px;
+  font-size: 22px;
+
+  border: 1px solid #f8f8f8;
+  border-radius: 10px;
 }

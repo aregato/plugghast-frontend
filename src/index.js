@@ -8,12 +8,13 @@ import { Router, Route, browserHistory } from 'react-router';
 import { firebaseApp } from './firebase';
 
 import { logUser } from './actions';
-import reducer from './reducers'; 
+import reducer from './reducers';
 
 //pages
 import App from './component/App';
 import SignIn from './component/SignIn';
 import SignUp from './component/SignUp';
+import ForgotPsw from './component/ForgotPsw';
 import Courses from './component/page/Courses';
 import Help from './component/page/Help';
 import News from './component/page/News';
@@ -42,6 +43,7 @@ ReactDOM.render(
       <Router path="/" history={browserHistory}>
         <Route path="/signin" component={SignIn} />
         <Route path="/signup" component={SignUp} />
+        <Route path="/forgotpsw" component={ForgotPsw} />
         <Route path="/app" component={App} />
         <Route path="/courses" component={Courses} />
         <Route path="/help" component={Help} />

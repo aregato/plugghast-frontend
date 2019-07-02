@@ -9,7 +9,7 @@ class Offers extends Component {
       <div>
         <div className="container">
           <h1>Erbjudanden</h1>
-          <hr />
+          <br />
           <div className="row">
             <div className="col-lg-6 col-md-8 col-sm-12">
             <div className="well offers">

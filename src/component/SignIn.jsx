@@ -52,7 +52,7 @@ class SignIn extends Component {
                   onChange={event => this.setState({password: event.target.value})}
                 />
                 </div>
-                <a className="forget-pws">Glömt lösenord?</a>
+                <Link className="forget-pws" to={'/forgotpsw'}>Glömt lösenord?</Link>
                 <br/>
                 <div className="button-sign">
                   <button
