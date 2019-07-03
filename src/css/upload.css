@@ -199,3 +199,11 @@ img.uploadImg{
 
   color: #767676;
 }
+div.info-box{
+  display: none;
+  position: absolute;
+}
+.glyphicon-info-sign:hover{
+    display: block;
+    color: black !important;
+}

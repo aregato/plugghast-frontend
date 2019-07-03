@@ -25,10 +25,26 @@ Ljus: #aaa9a9
 */
 /* text --> FONT */
 
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: local('Montserrat-Bold'), url(./Montserrat-Bold.otf) format('otf');
+}
+
+
 div.page{
   font-family: 'Montserrat';
   zoom:80%;
   width: 100%;
+}
+.svg{
+  width: 36px;
+  margin-left: -3px;
+  margin-right: 14px;
+  margin-bottom: -10px;
+}
+#path0{
+  fill: #767676;
+
 }
 h1{
   font-family: 'Montserrat';

@@ -105,6 +105,7 @@ class Upload extends Component {
                               <p className="p">Ladda upp video</p>
                             </div>
                             <div className="sound">
+
                             <span className="glyphicon glyphicon-info-sign two"/>
                               <img className=""alt="icon" src={upload} />
                               <p className="p">Ladda upp ljud</p>

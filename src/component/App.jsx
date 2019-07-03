@@ -19,6 +19,8 @@ import uploadIcon from '../assets/icons/laddaupp.png';
 import helpIcon from '../assets/icons/help.png';
 import userdealsIcon from '../assets/icons/userdeals.png';
 
+import userdealsSvg from '../assets/icons/testAnvändaravtal.svg';
+
 import offersIcon from '../assets/icons/offers.png'
 
 
@@ -47,9 +49,24 @@ class App extends Component {
               <NavLink to="/upload"><img src={uploadIcon} alt="icon" />Ladda upp kurs</NavLink>
               <br/><br/>
               <NavLink to="/help"><img src={helpIcon}  alt="icon"/>Hjälp</NavLink>
-              <NavLink to="/userdeals"><img src={userdealsIcon} alt="icon"/>Användaravtal</NavLink>
+              <NavLink to="/userdeals">
+                <svg className="svg" viewBox="0, 0, 400,400">
+                  <g id="svgg">
+                    <path id="path0" d="M98.253 46.751 C 51.259 55.259,51.968 53.928,52.912 131.880 C 53.769 202.672,56.936 220.975,74.236 255.114 C 98.200 302.404,167.260 360.000,200.000 360.000 C 246.200 360.000,324.385 279.577,342.083 213.850 C 349.509 186.273,348.403 66.498,340.651 58.746 C 323.726 41.821,168.038 34.117,98.253 46.751 M288.889 132.459 C 288.889 140.489,187.297 244.444,179.449 244.444 C 173.453 244.444,124.444 194.074,124.444 187.911 C 124.444 174.744,136.022 178.537,156.052 198.267 L 177.920 219.806 225.601 172.125 C 271.546 126.180,288.889 115.310,288.889 132.459 " stroke="none" fill-rule="evenodd">
+                    </path>
+                  </g>
+                </svg>
+                Användaravtal
+              </NavLink>
 
-              <NavLink to="/offers"><img src={offersIcon} alt="icon"/>Erbjudanden</NavLink>
+              <NavLink to="/offers">
+              <svg className="svg" viewBox="0, 0, 400,400">
+                <g id="svgg">
+                  <path id="path0" d="M98.253 46.751 C 51.259 55.259,51.968 53.928,52.912 131.880 C 53.769 202.672,56.936 220.975,74.236 255.114 C 98.200 302.404,167.260 360.000,200.000 360.000 C 246.200 360.000,324.385 279.577,342.083 213.850 C 349.509 186.273,348.403 66.498,340.651 58.746 C 323.726 41.821,168.038 34.117,98.253 46.751 M288.889 132.459 C 288.889 140.489,187.297 244.444,179.449 244.444 C 173.453 244.444,124.444 194.074,124.444 187.911 C 124.444 174.744,136.022 178.537,156.052 198.267 L 177.920 219.806 225.601 172.125 C 271.546 126.180,288.889 115.310,288.889 132.459 " stroke="none" fill-rule="evenodd">
+                  </path>
+                </g>
+              </svg>
+              Erbjudanden</NavLink>
           </div>
         </nav>
 
@@ -71,7 +88,11 @@ class App extends Component {
           <Route path="/userdeals" component={Userdeals}/>
           <Route path="/news" component={News}/>
           <Route path="/offers" component={Offers}/>
+
         </section>
+        <div className="content">
+          hejasdasdasd
+        </div>
         </div>
       </HashRouter>
     )
