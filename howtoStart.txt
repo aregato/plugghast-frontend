@@ -1,0 +1,5 @@
+1. Installera node --> https://nodejs.org/en/
+2. Kör npm install i första mappen för att installera alla moduler
+
+3. Kör npm start för att starta server med React.
+ 
