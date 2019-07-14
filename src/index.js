@@ -10,6 +10,8 @@ import { firebaseApp } from './firebase';
 import { logUser } from './actions';
 import reducer from './reducers';
 
+
+
 //pages
 import App from './component/App';
 import SignIn from './component/SignIn';
@@ -29,7 +31,7 @@ firebaseApp.auth().onAuthStateChanged(user => {
     console.log('Inloggad');
     console.log(user);
     const { email } = user;
-    store.dispatch(logUser());
+    store.dispatch(logUser(email));
     browserHistory.push('/app');
   }else{
     console.log('Ingen inloggad');
