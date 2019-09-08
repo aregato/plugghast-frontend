@@ -1,6 +1,6 @@
 .body{
   height: 98vh;
-  background-color: #f8f8f8;
+  background-color: #f8f8f8 !important;
 }
 
 input:focus{
@@ -10,7 +10,7 @@ input:focus{
 }
 
 .well.sign{
-  width: 90%;
+  width: 100% !important;
   height: 400px;
 
   display: flex;
